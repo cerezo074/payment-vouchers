@@ -1,0 +1,2662 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns1:Catalogo xmlns:ns1="http://creativosdigitales.co/schema/docusfera.xsd" nombre="Cuentas">
+	<Cuenta>
+		<Codigo>1               </Codigo>
+		<Nombre>ACTIVOS                                 </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>11              </Codigo>
+		<Nombre>DISPONIBLE                              </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>1105            </Codigo>
+		<Nombre>CAJA                                    </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>110505          </Codigo>
+		<Nombre>CAJA GENERAL                            </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>110510          </Codigo>
+		<Nombre>CAJA MENOR                              </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>1110            </Codigo>
+		<Nombre>BANCOS                                  </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>111005          </Codigo>
+		<Nombre>BANCOS MONEDA NACIONAL                  </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>11100505        </Codigo>
+		<Nombre>BANCOLOMBIA CTA CTE</Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>11100510        </Codigo>
+		<Nombre>MEGABANCO                               </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>11100515        </Codigo>
+		<Nombre>BANCO DE OCCIDENTE                      </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>1120            </Codigo>
+		<Nombre>CUENTAS DE AHORROS                      </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>112005          </Codigo>
+		<Nombre>CTAS AHORRO EN BANCOS                   </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>11200505        </Codigo>
+		<Nombre>BANCOLOMBIA CTA DE AHORROS</Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>13              </Codigo>
+		<Nombre>DEUDORES                                </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>1305            </Codigo>
+		<Nombre>CLIENTES</Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>130505          </Codigo>
+		<Nombre>NACIONALES              </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>1325            </Codigo>
+		<Nombre>C x C SOCIOS Y ACCIONISTAS              </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>132505          </Codigo>
+		<Nombre>A SOCIOS                            </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>132510          </Codigo>
+		<Nombre>A ACCIONISTAS                       </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>1330            </Codigo>
+		<Nombre>ANTICIPOS Y AVANCES                     </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>133005          </Codigo>
+		<Nombre>A PROVEEDORES              </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>133015          </Codigo>
+		<Nombre>A TRABAJADORS          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>133095          </Codigo>
+		<Nombre>OTROS                </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>1345            </Codigo>
+		<Nombre>INGRESOS x COBRAR                       </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>134505          </Codigo>
+		<Nombre>INGR. x COBR. DIVIDS-PARTICIP           </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>134510          </Codigo>
+		<Nombre>INGR. x COBR. INTERESES                 </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>134515          </Codigo>
+		<Nombre>INGR. x COBR. COMISIONES                </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>134520          </Codigo>
+		<Nombre>INGR. x COBR. HONORARIOS                </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>134525          </Codigo>
+		<Nombre>INGR. x COBR. x SERVICIOS               </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>134530          </Codigo>
+		<Nombre>INGR. x COBR. x ARRENDMTO               </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>134595          </Codigo>
+		<Nombre>INGR. x COBR. A OTROS                   </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>1355            </Codigo>
+		<Nombre>ANTIC. IMPTOS Y CONTRIB.                </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>135505          </Codigo>
+		<Nombre>ANTIC. DE IMPTOS DE RTA Y COMP          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>135510          </Codigo>
+		<Nombre>ANTIC. DE IMPTOS IND. Y CCIO.           </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>135515          </Codigo>
+		<Nombre>RTE. FTE. x COBRAR                      </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>13551503        </Codigo>
+		<Nombre>RF x ARRENDAMIENTO                      </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>13551504        </Codigo>
+		<Nombre>RF x SERVICIOS 4 %                     </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>13551506        </Codigo>
+		<Nombre>RF x SERVICIOS 6 %                      </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>13551511        </Codigo>
+		<Nombre>RF x HONORARIOS Y SERVICIOS 11%         </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>13551540        </Codigo>
+		<Nombre>RF x COBRAR VENTAS.                     </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>13551598        </Codigo>
+		<Nombre>RF x COBRAR A¾O ANTERIOR                </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>135517          </Codigo>
+		<Nombre>IMPUESTO A LAS VENTAS RETENIDO          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>135520          </Codigo>
+		<Nombre>SOBRANTES EN LIQUIDACION PRIVADA        </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>135525          </Codigo>
+		<Nombre>CONTRIBUCIONES                          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>135530          </Codigo>
+		<Nombre>IMPUESTOS DESCONTABLES                  </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>135595          </Codigo>
+		<Nombre>OTROS</Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>1365            </Codigo>
+		<Nombre>C x C A TRABAJADORES                    </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>136505          </Codigo>
+		<Nombre>C x C TRAB. POR VIVIENDA                </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>136510          </Codigo>
+		<Nombre>C x C TRAB. POR VEHICULO                </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>136525          </Codigo>
+		<Nombre>C x C TRAB. POR CALAM. DOMEST.          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>136595          </Codigo>
+		<Nombre>OTROS</Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>1370            </Codigo>
+		<Nombre>PRESTAMOS A PARTICULARES                </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>137005          </Codigo>
+		<Nombre>PREST. CON GARANTIA REAL                </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>137010          </Codigo>
+		<Nombre>PREST. CON GARANTIA PERSONAL            </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>1380            </Codigo>
+		<Nombre>DEUDORES VARIOS                         </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>138020          </Codigo>
+		<Nombre>C x C DE TERCEROS                       </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>138095          </Codigo>
+		<Nombre>OTROS</Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>1399            </Codigo>
+		<Nombre>PROVISIONES                             </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>139905          </Codigo>
+		<Nombre>CLIENTES                  </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>15              </Codigo>
+		<Nombre>PROPIEDADES PLANTA Y EQUIPO             </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>1504            </Codigo>
+		<Nombre>TERRENOS                                </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>150405          </Codigo>
+		<Nombre>COSTO TERRENOS URBANOS                  </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>150410          </Codigo>
+		<Nombre>COSTO TERRENOS RURALES                  </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>150499          </Codigo>
+		<Nombre>AII TERRENOS                   </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>15049905        </Codigo>
+		<Nombre>AII TERRENOS URBANOS                    </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>15049910        </Codigo>
+		<Nombre>AII TERRENOS RURALES                    </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>1508            </Codigo>
+		<Nombre>CONSTRUC. EN CURSO                      </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>150805          </Codigo>
+		<Nombre>CONSTRUC. Y EDIFIC. EN CURSO            </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>150899          </Codigo>
+		<Nombre>AII CONSTR. EN CURSO           </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>15089905        </Codigo>
+		<Nombre>AII CONSTR. EN CURSO           </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>1516            </Codigo>
+		<Nombre>CONSTRUC. Y EDIFICACIONES               </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>151605          </Codigo>
+		<Nombre>COSTO EDIFICIOS                         </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>151610          </Codigo>
+		<Nombre>COSTO OFICINAS                          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>151695          </Codigo>
+		<Nombre>COSTO OTRAS CONSTR. Y EDIFIC.           </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>151699          </Codigo>
+		<Nombre>AII CONSTRUC. Y EDIFI          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>15169905        </Codigo>
+		<Nombre>AII EDIFICIOS                           </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>15169910        </Codigo>
+		<Nombre>AII OFICINAS                            </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>15169995        </Codigo>
+		<Nombre>AII OTRAS CONSTR.                       </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>1520            </Codigo>
+		<Nombre>MAQUINARIA Y EQUIPO                     </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>152005          </Codigo>
+		<Nombre>COSTO MAQ. Y EQUIPO                     </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>152099          </Codigo>
+		<Nombre>AII MAQ. Y EQUIPO              </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>15209905        </Codigo>
+		<Nombre>AII MAQ.Y EQUIPO                        </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>1524            </Codigo>
+		<Nombre>EQUIPO DE OFICINA                       </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>152405          </Codigo>
+		<Nombre>COSTO MUE. Y ENSERES                    </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>152410          </Codigo>
+		<Nombre>COSTO EQUIPOS</Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>152495          </Codigo>
+		<Nombre>OTROS</Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>152499          </Codigo>
+		<Nombre>AII EQUIP. OFICINA              </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>15249905        </Codigo>
+		<Nombre>AII COSTO MUE. Y ENS.                   </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>15249910        </Codigo>
+		<Nombre>AII COSTO EQU. OFIC.                    </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>15249995        </Codigo>
+		<Nombre>AII COSTO OTROS EQU. OFIC.              </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>1528            </Codigo>
+		<Nombre>EQUIPOS DE COMPUTACION Y COMUN          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>152805          </Codigo>
+		<Nombre>COSTO EQU. PROC. DATOS                  </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>152810          </Codigo>
+		<Nombre>COSTO EQU. COMUNICACION                 </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>152825          </Codigo>
+		<Nombre>COSTO EQU. LINEAS TELEF                 </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>152895          </Codigo>
+		<Nombre>OTROS</Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>152899          </Codigo>
+		<Nombre>AII EQU. COMPUTACION                    </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>15289905        </Codigo>
+		<Nombre>AII EQU. PROC. DATOS                    </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>15289910        </Codigo>
+		<Nombre>AII EQU. TELECOMUNICAC.                 </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>15289925        </Codigo>
+		<Nombre>AII LINEAS TELEFONICAS                  </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>15289995        </Codigo>
+		<Nombre>AII COSTO OTROS EQ. COMUNIC.            </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>1540            </Codigo>
+		<Nombre>FLOTA Y EQUIPO DE TRANSPORTE            </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>154005          </Codigo>
+		<Nombre>AUTOS,CAM. Y CAMPEROS                   </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>154030          </Codigo>
+		<Nombre>MOTICICLETAS                            </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>154099          </Codigo>
+		<Nombre>AII FLOTA Y EQU. TRAN          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>15409905        </Codigo>
+		<Nombre>AII AUTOS,CAM. Y CAMP.                  </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>15409930        </Codigo>
+		<Nombre>AII MOTICICLETAS                        </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>1592            </Codigo>
+		<Nombre>DEPRECIACION ACUMULADA                  </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>159205          </Codigo>
+		<Nombre>DEP. CONSTRUC. Y EDIFICAC.              </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>15920505        </Codigo>
+		<Nombre>DEP. EDIFICIOS                          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>15920510        </Codigo>
+		<Nombre>DEP. OFICINAS                           </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>159210          </Codigo>
+		<Nombre>DEP. MAQ. Y EQUIPO                      </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>15921005        </Codigo>
+		<Nombre>DEP. MAQ. Y EQUIPO                      </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>159215          </Codigo>
+		<Nombre>DEP. EQU. OFICINA                       </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>15921505        </Codigo>
+		<Nombre>DEP. MUE. Y ENSERES                     </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>15921510        </Codigo>
+		<Nombre>DEP. EQU. OFICINA                       </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>159220          </Codigo>
+		<Nombre>DEP. EQU. COMPUTACION                   </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>15922005        </Codigo>
+		<Nombre>DEP. EQU. PROC. DATOS                   </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>15922010        </Codigo>
+		<Nombre>DEP. EQU. TELECOMUNIC.                  </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>159235          </Codigo>
+		<Nombre>DEP. FLOTA Y EQU. TRANS.                </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>15923505        </Codigo>
+		<Nombre>DEP. AUTOS,CAM. Y CAMP.                 </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>15923530        </Codigo>
+		<Nombre>DEP. MOTOCICLETAS                       </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>159299          </Codigo>
+		<Nombre>AII DEPRECIACIONES                      </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>15929909        </Codigo>
+		<Nombre>AII DEP. MAQ. Y EQUIPO                  </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>15929913        </Codigo>
+		<Nombre>AII DEP. MUE. Y ENSERES                 </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>15929914        </Codigo>
+		<Nombre>AII DEP. EQU. OFICINA                   </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>15929917        </Codigo>
+		<Nombre>AII DEP. EQU. PROC. DATOS               </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>15929918        </Codigo>
+		<Nombre>AII DEP. EQU. PROC. DATOS               </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>15929919        </Codigo>
+		<Nombre>AII DEP. EQU. TELECOMUNIC.              </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>15929930        </Codigo>
+		<Nombre>AII DEP. AUTOS,CAM. CAMP.               </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>15929933        </Codigo>
+		<Nombre>AII DEP. MOTOCICLETAS                   </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>16              </Codigo>
+		<Nombre>INTANGIBLES                             </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>1605            </Codigo>
+		<Nombre>INTANGIBLE CREDITO MERCANTIL            </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>160510          </Codigo>
+		<Nombre>CREDITO MERCANTIL ADQUIRIDO             </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>160599          </Codigo>
+		<Nombre>AII CRED. MCANTIL              </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>1630            </Codigo>
+		<Nombre>KNOW HOW                                </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>163005          </Codigo>
+		<Nombre>KNOW HOW                                </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>163099          </Codigo>
+		<Nombre>AII KNOW HOW                   </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>17              </Codigo>
+		<Nombre>DIFERIDOS                               </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>1705            </Codigo>
+		<Nombre>GASTOS PAGADOS POR ANTICIPADO           </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>170505          </Codigo>
+		<Nombre>INTERESES            </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>170510          </Codigo>
+		<Nombre>HONORARIOS               </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>170515          </Codigo>
+		<Nombre>COMISIONES           </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>170520          </Codigo>
+		<Nombre>SEGUROS Y FIANZAS     </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>170525          </Codigo>
+		<Nombre>ARRENDAMIENTOS     </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>170540          </Codigo>
+		<Nombre>SERVICIOS </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>170545          </Codigo>
+		<Nombre>SUSCRIPCIONES</Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>170595          </Codigo>
+		<Nombre>OTROS</Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>1710            </Codigo>
+		<Nombre>CARGOS DIFERIDOS                        </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>171004          </Codigo>
+		<Nombre>CARGOS DIFER. ORGANZ Y PREOP.           </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>171012          </Codigo>
+		<Nombre>ESTUDIO, INVESTIGACION Y PROYECTOS      </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>171016          </Codigo>
+		<Nombre>CARGOS DIFER. PROGR. SOFTWARE           </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>171020          </Codigo>
+		<Nombre>CARGO DIFER. PAPELERIA                  </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>171044          </Codigo>
+		<Nombre>PUBLIC,PROPAG Y AVISOS PREPAG           </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>171099          </Codigo>
+		<Nombre>AII CARGOS DIFERIDOS                    </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>1730            </Codigo>
+		<Nombre>CARGOS x CORRECC. MONET DIFER.          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>173005          </Codigo>
+		<Nombre>CARGOS x CORRECC. MONET DIFER.          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>2               </Codigo>
+		<Nombre>PASIVO                                  </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>21              </Codigo>
+		<Nombre>OBLIGACIONES FINANCIERAS                </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>2105            </Codigo>
+		<Nombre>OBLIGACIONES BANCOS NALES               </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>210505          </Codigo>
+		<Nombre>OBLIG. SOBREGIROS BANCARIOS             </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>210510          </Codigo>
+		<Nombre>OBLIG. BANCARIAS EN PAGARES             </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>210515          </Codigo>
+		<Nombre>OBLIG. CARTAS DE CREDITO                </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>210520          </Codigo>
+		<Nombre>OBLIG. ACEPT. BANCARIAS                 </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>2115            </Codigo>
+		<Nombre>CORPORACIONES FINANCIERAS               </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>211505          </Codigo>
+		<Nombre>PAGARE CORPORAC. FINANC.                </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>2125            </Codigo>
+		<Nombre>OBLIG. CORP. AHORRO Y VIVIENDA          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>212510          </Codigo>
+		<Nombre>OBLIG. PAGARE CORP. AHORRO Y V          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>2195            </Codigo>
+		<Nombre>OTRAS OBLIGACIONES                      </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>219505          </Codigo>
+		<Nombre>PARTICULARES</Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>219595          </Codigo>
+		<Nombre>OTROS</Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>22              </Codigo>
+		<Nombre>PROVEEDORES                             </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>2205            </Codigo>
+		<Nombre>NACIONALES                  </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>220505          </Codigo>
+		<Nombre>PROVEEDORES NACIONALES                  </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>23              </Codigo>
+		<Nombre>CUENTAS x PAGAR                         </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>2335            </Codigo>
+		<Nombre>COSTOS Y GTOS X PAGAR                   </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>233505          </Codigo>
+		<Nombre>GASTOS FINANCIEROS                      </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>233515          </Codigo>
+		<Nombre>LIBROS, SUSCRIPCIONES, PERIODICOS Y REVI</Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>233520          </Codigo>
+		<Nombre>COMISION                                </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>233525          </Codigo>
+		<Nombre>HONORARIOS                              </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>233530          </Codigo>
+		<Nombre>SERVICIOS TECNICOS                      </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>233535          </Codigo>
+		<Nombre>SERVICIOS DE MANTENIMIENTO              </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>233540          </Codigo>
+		<Nombre>ARRENDAMIENTOS                          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>233555          </Codigo>
+		<Nombre>SEGUROS                                 </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>233560</Codigo>
+		<Nombre>GASTOS DE VIIAJE</Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>233595          </Codigo>
+		<Nombre>OTRAS CXP                               </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>2355            </Codigo>
+		<Nombre>DEUDAS CON ACCION. O SOCIOS             </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>235505          </Codigo>
+		<Nombre>ACCIONISTAS</Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>235510          </Codigo>
+		<Nombre>SOCIOS</Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>2360            </Codigo>
+		<Nombre>DIVIDENDOS O PARTIC. x PAGAR            </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>236005          </Codigo>
+		<Nombre>DIVIDENDOS  </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>236010          </Codigo>
+		<Nombre>PARTICIPACIONES</Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>2365            </Codigo>
+		<Nombre>RETENCION EN LA FUENTE                  </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>236505          </Codigo>
+		<Nombre>RF x P SALARIOS Y PAGOS LABORALES       </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>236510          </Codigo>
+		<Nombre>RF x P DIVID. O PARTICIP.               </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>236515          </Codigo>
+		<Nombre>RF x P HONORARIOS                       </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>23651510        </Codigo>
+		<Nombre>RF X P HONORARIOS  10%                  </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>23651511        </Codigo>
+		<Nombre>RF X P HONORARIOS 11%                   </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>236520          </Codigo>
+		<Nombre>RF x P COMISIONES                       </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>236525          </Codigo>
+		<Nombre>RF x P SERVICIOS                        </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>23652502        </Codigo>
+		<Nombre>RF x P SERVICIOS TRANSPORTE 1%          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>23652504        </Codigo>
+		<Nombre>RF x P SERVICIOS 4%                     </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>23652506        </Codigo>
+		<Nombre>RF x P SERVICIOS 6%                     </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>236530          </Codigo>
+		<Nombre>RF x P  ARRENDAMIENTOS                  </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>23653002        </Codigo>
+		<Nombre>RF x P. ARRENDAMIENTOS  2%              </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>23653003        </Codigo>
+		<Nombre>RF x P. ARRENDAMIENTOS  3.5%            </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>236535          </Codigo>
+		<Nombre>RF x P. REND. FINANCIEROS               </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>236540          </Codigo>
+		<Nombre>RF x P  COMPRAS                         </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>236575          </Codigo>
+		<Nombre>AUTORRETENCIONES                        </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>236597          </Codigo>
+		<Nombre>PAGOS DE RETEFUENTE                     </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>236598          </Codigo>
+		<Nombre>RTE FTE x PAGAR A¾O ANT.                </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>2367            </Codigo>
+		<Nombre>IVA RETENIDO                            </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>236705          </Codigo>
+		<Nombre>IVA RET REG. SIMPLIFICADO               </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>2370            </Codigo>
+		<Nombre>RETENC. Y APORTES DE NOMINA             </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>237005          </Codigo>
+		<Nombre>APORTES A EPS.                          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>237006          </Codigo>
+		<Nombre>APORTES A  RIESGOS PROF. ARP            </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>237010          </Codigo>
+		<Nombre>APORTES ICBF. SENA Y CAJA COMP          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>237045          </Codigo>
+		<Nombre>APORTES A FONDOS</Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>237050</Codigo>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>237095</Codigo>
+		<Nombre>OTROS</Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>2380            </Codigo>
+		<Nombre>ACREEDORES VARIOS                       </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>238030          </Codigo>
+		<Nombre>APORT. FOND. CESANT - PENSIONE          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>238095          </Codigo>
+		<Nombre>OTROS ACREED. VARIOS                    </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>24              </Codigo>
+		<Nombre>IMPUESTOS, GRAVAMENES Y TASAS           </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>2404            </Codigo>
+		<Nombre>IMPTO DE RENTA Y COMPLEMENT.            </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>240405          </Codigo>
+		<Nombre>VIGENCIA FISCAL CORRIENTE               </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>2408            </Codigo>
+		<Nombre>IMPTO SOBRE LAS VTAS POR PAGAR          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>240801          </Codigo>
+		<Nombre>IVA GENERADO POR VENTAS                 </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>24080101</Codigo>
+		<Nombre>IVA VENTAS DEL 16%</Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>240805          </Codigo>
+		<Nombre>IVA DESCONTABLE</Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>24080501        </Codigo>
+		<Nombre>GASTOS 10%</Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>24080503        </Codigo>
+		<Nombre>GASTOS 16%</Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>24080567        </Codigo>
+		<Nombre>IVA RET REGIMEN SIMPLIFICADO            </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>240806          </Codigo>
+		<Nombre>IVA DESCONTABLE 7%                      </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>240897          </Codigo>
+		<Nombre>PAGOS DE IVA                            </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>240898          </Codigo>
+		<Nombre>IVA POR PAGAR A¾O ANTERIOR              </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>2412            </Codigo>
+		<Nombre>IMPTO INDUS. Y COMERCIO                 </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>241205          </Codigo>
+		<Nombre>VIGENCIA FISCAL CORRIENTE               </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>241210          </Codigo>
+		<Nombre>VIGENCIA FISCAL ANTERIOR                </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>2495            </Codigo>
+		<Nombre>OTROS                                   </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>249501          </Codigo>
+		<Nombre>OTROS (IMPUESTOS. IVA)                  </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>249502          </Codigo>
+		<Nombre>OTROS (IMPUESTOS. RET/FTE)              </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>25              </Codigo>
+		<Nombre>OBLIGACIONES LABORALES                  </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>2505            </Codigo>
+		<Nombre>SALARIOS x PAGAR                        </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>250505          </Codigo>
+		<Nombre>SALARIOS x PAGAR                        </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>2510            </Codigo>
+		<Nombre>CESANTIAS CONSOLIDADAS                  </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>251010          </Codigo>
+		<Nombre>LEY 50/1990 Y NORMAS POST.              </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>25101005        </Codigo>
+		<Nombre>CESANTIAS A¾O ANTERIOR                  </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>2515            </Codigo>
+		<Nombre>INTER. SOBRE CESANTIAS                  </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>251501          </Codigo>
+		<Nombre>INTER. CESANTIAS CONSOLID.              </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>2525</Codigo>
+		<Nombre>VACACIONES </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>252501</Codigo>
+		<Nombre>VACACIONES CONSOLIDADAS</Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>2540            </Codigo>
+		<Nombre>INDEMNIZACIONES LABORALES               </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>254001          </Codigo>
+		<Nombre>INDEMNIZACIONES LABORALES               </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>26              </Codigo>
+		<Nombre>PASIVOS ESTIMADOS Y PROVIS.             </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>2610            </Codigo>
+		<Nombre>PROV. PARA OBLIGAC. LABOR.              </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>261005          </Codigo>
+		<Nombre>PROV. CESANTIAS                         </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>261010          </Codigo>
+		<Nombre>PROV. INT. CESANTIAS                    </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>261015          </Codigo>
+		<Nombre>PROV. VACACIONES                        </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>261020          </Codigo>
+		<Nombre>PROV. PRIMA  SERVICIOS                  </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>261095          </Codigo>
+		<Nombre>OTRAS PROVISIONES                       </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>2615            </Codigo>
+		<Nombre>PROV. OBLIGAC. FISCALES                 </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>261505          </Codigo>
+		<Nombre>PROV. DE RTA Y COMPLEMT.                </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>261595          </Codigo>
+		<Nombre>OTRAS PROV. FISCALES                    </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>27              </Codigo>
+		<Nombre>DIFERIDOS                               </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>2705            </Codigo>
+		<Nombre>INGR. RECIB. x ANTICIPADO               </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>270505          </Codigo>
+		<Nombre>INTERESES RECIB. x ANTIC.               </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>270510          </Codigo>
+		<Nombre>COMISIONES RECIB. x ANTIC.              </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>270595          </Codigo>
+		<Nombre>OTROS INGR. RECIB. x ANTIC.             </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>2720            </Codigo>
+		<Nombre>CREDITO x CORREC. MONET. DIFER          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>272005          </Codigo>
+		<Nombre>CREDITO x CORREC. MONET. DIFER          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>28              </Codigo>
+		<Nombre>OTROS PASIVOS                           </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>2805            </Codigo>
+		<Nombre>ANTIC. Y AVANCES RECIBIDOS              </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>280505          </Codigo>
+		<Nombre>ANTICIPO DE CLIENTES                    </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>3               </Codigo>
+		<Nombre>PATRIMONIO                              </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>31              </Codigo>
+		<Nombre>CAPITAL SOCIAL                          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>3105            </Codigo>
+		<Nombre>CAPITAL SUSCRITO Y PAGADO               </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>310505          </Codigo>
+		<Nombre>CAPITAL AUTORIZADO                      </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>310510          </Codigo>
+		<Nombre>CAPITAL x SUSCRIBIR (DB)                </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>310515          </Codigo>
+		<Nombre>CAPITAL SUSCRITO x COBRAR               </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>3115            </Codigo>
+		<Nombre>APORTES SOCIALES                        </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>311510          </Codigo>
+		<Nombre>APORTES DE SOCIOS                       </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>32              </Codigo>
+		<Nombre>SUPERAVIT DE CAPITAL                    </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>3205            </Codigo>
+		<Nombre>PRIMA EN COLOC. ACCIONES                </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>320505          </Codigo>
+		<Nombre>PRIMA EN COLOC. ACCIONES                </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>320510          </Codigo>
+		<Nombre>PRIMA EN COLOC. ACC. x COBRAR           </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>3210            </Codigo>
+		<Nombre>DONACIONES                              </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>321005          </Codigo>
+		<Nombre>DONACIONES EN DINERO                    </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>321015          </Codigo>
+		<Nombre>DONACIONES EN BIENES MUE.               </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>321025          </Codigo>
+		<Nombre>DONACIONES EN INTANGIBLES               </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>3215            </Codigo>
+		<Nombre>CREDITO MERCANTIL                       </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>321505          </Codigo>
+		<Nombre>CREDITO MERCANTIL ADQUIRIDO             </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>3220            </Codigo>
+		<Nombre>KNOW HOW                                </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>322005          </Codigo>
+		<Nombre>KNOW HOW                                </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>33              </Codigo>
+		<Nombre>RESERVAS                                </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>3305            </Codigo>
+		<Nombre>RESERVAS OBLIGATORIAS                   </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>330505          </Codigo>
+		<Nombre>RESERVA LEGAL                           </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>3310            </Codigo>
+		<Nombre>RESERVAS ESTATUTARIAS                   </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>331005          </Codigo>
+		<Nombre>RESERVAS PARA FUTUR. CAPITAL.           </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>331095          </Codigo>
+		<Nombre>OTRAS RESERVAS                          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>34              </Codigo>
+		<Nombre>REVALORIZACION DE PATRIMONIO            </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>3405            </Codigo>
+		<Nombre>AII PATRIMONIO               </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>340505          </Codigo>
+		<Nombre>REVAL. DE CAPITAL SOCIAL                </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>340510          </Codigo>
+		<Nombre>REVAL. DE SUPERAVIT DE CAPITAL          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>340515          </Codigo>
+		<Nombre>REVAL. DE RESERVAS                      </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>340520          </Codigo>
+		<Nombre>REVAL. DE EJERCICIOS ANTER.             </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>36              </Codigo>
+		<Nombre>RESULTADOS DEL EJERCICIO                </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>3605            </Codigo>
+		<Nombre>UTILIDAD DEL EJERCICIO                  </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>360505          </Codigo>
+		<Nombre>UTILIDAD DEL EJERCICIO                  </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>360510          </Codigo>
+		<Nombre>UTILIDAD x EXPOSIC. INFL.               </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>3610            </Codigo>
+		<Nombre>PERDIDA DEL EJERCICIO                   </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>361005          </Codigo>
+		<Nombre>PERDIDA DEL EJERCICIO                   </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>361010          </Codigo>
+		<Nombre>PERDIDA x EXPOSIC. INFL.                </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>37              </Codigo>
+		<Nombre>RESULT. EJERC. ANTERIORES               </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>3705            </Codigo>
+		<Nombre>UTILIDADES O EXCED. ACUMULADOS          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>370505          </Codigo>
+		<Nombre>UTILIDAD O EXCEDENTES ACUMUL.           </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>370510          </Codigo>
+		<Nombre>UTIL. x EXPOS. INFLACION                </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>3710            </Codigo>
+		<Nombre>PERDIDAS ACUMULADAS                     </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>371005          </Codigo>
+		<Nombre>PERDIDAS ACUMULADAS                     </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>371010          </Codigo>
+		<Nombre>PERDIDA X EXPOSICION INFLACION          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>38              </Codigo>
+		<Nombre>SUPERAVIT x VALORIZACION                </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>3805            </Codigo>
+		<Nombre>SUPERAVIT DE INVERSIONES                </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>380505          </Codigo>
+		<Nombre>SUPERAVIT DE INVERS. ACCIONES           </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>380510          </Codigo>
+		<Nombre>SUPERAVIT CTAS O PARTE INT. SO          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>3810            </Codigo>
+		<Nombre>SUPERAVIT PROP. PLANTA Y EQU.           </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>381004          </Codigo>
+		<Nombre>SUPERAVIT x TERRENOS                    </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>4               </Codigo>
+		<Nombre>INGRESOS                                </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>41              </Codigo>
+		<Nombre>INGRESOS OPERACIONALES                  </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>4135            </Codigo>
+		<Nombre>CCIO AL POR MAYOR Y MENOR               </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>413554          </Codigo>
+		<Nombre>VTA EQU. OFIC Y PROG.COMPUT.            </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>41355405        </Codigo>
+		<Nombre>VTA DE EQUIPOS                          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>41355410        </Codigo>
+		<Nombre>VTA DE SOFTWARE                         </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>41355415        </Codigo>
+		<Nombre>VTA DE INFOCONTABLE                     </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>41355420        </Codigo>
+		<Nombre>ACTUALIZACIONES</Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>41355425        </Codigo>
+		<Nombre>REINSTALACION, CAPACITACION Y SOPORTE   </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>41355430        </Codigo>
+		<Nombre>VTA BIABLE                           </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>41355435        </Codigo>
+		<Nombre>VTA DATAMANAGER                      </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>41355440        </Codigo>
+		<Nombre>DESARROLLOS SOFTWARE                    </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>4155            </Codigo>
+		<Nombre>ACTIV. EMPRESARIALES                    </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>415530          </Codigo>
+		<Nombre>CONSUL. EQU. Y PROG. INFORM.            </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>415590          </Codigo>
+		<Nombre>MMTO Y REPAR. EQU. Y MAQ.               </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>4175            </Codigo>
+		<Nombre>DEVOL REBAJAS DSCTOS EN VTAS            </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>417505          </Codigo>
+		<Nombre>DEVOL, DESCT REB. EN VENTAS             </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>417599          </Codigo>
+		<Nombre>AJUTE INFL. DEV DSCTOS  VTAS            </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>42              </Codigo>
+		<Nombre>INGRESOS NO OPERACIONALES               </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>4210            </Codigo>
+		<Nombre>INGR. NO OPER. FINANCIEROS              </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>421005          </Codigo>
+		<Nombre>INGRESOS POR INTERESES                  </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>421020          </Codigo>
+		<Nombre>DIFERENCIA EN CAMBIO                    </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>421035          </Codigo>
+		<Nombre>ACEPTACIONES BANCARIAS                  </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>421040          </Codigo>
+		<Nombre>DESCUENTOS CCIALES CONDICIONAD          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>421055          </Codigo>
+		<Nombre>MULTAS Y RECARGOS                       </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>421060          </Codigo>
+		<Nombre>SANCIONES CHEQUES DEVUELTOS             </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>421095          </Codigo>
+		<Nombre>OTROS INGRESOS FINANCIEROS              </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>4220            </Codigo>
+		<Nombre>ARRENDAMIENTOS                          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>422010          </Codigo>
+		<Nombre>ARRENDMTO CONSTRUC. Y EDIFIC.           </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>4230            </Codigo>
+		<Nombre>INGRESOS POR HONORARIOS                 </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>423005          </Codigo>
+		<Nombre>ASESORIAS                               </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>4235            </Codigo>
+		<Nombre>INGRESOS POR SERVICIOS                  </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>423525          </Codigo>
+		<Nombre>SERVIC. TECNICOS                        </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>423530          </Codigo>
+		<Nombre>SERVIC. DE COMPUTACION                  </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>423595          </Codigo>
+		<Nombre>INGRESOS x OTROS SERVICIOS              </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>4245            </Codigo>
+		<Nombre>UTILIDAD VTA PROP. PLAN Y EQ.           </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>424528          </Codigo>
+		<Nombre>VTA EQ. COMPU Y COMUNICA                </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>424540          </Codigo>
+		<Nombre>FLOTA Y EQUIPO DE TRANSPORTE            </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>4250            </Codigo>
+		<Nombre>INGRESOS x RECUPERACIONES               </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>425005          </Codigo>
+		<Nombre>RECUPER. DEUDAS MALAS                   </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>425010          </Codigo>
+		<Nombre>RECUPER. POR SEGUROS                    </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>425030          </Codigo>
+		<Nombre>DESCUENTOS CONCEDIDOS                   </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>425045</Codigo>
+		<Nombre>DE DEPRECIACION</Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>425050          </Codigo>
+		<Nombre>REINTEGRO OTROS COSTOS Y GTOS.          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>4255            </Codigo>
+		<Nombre>INDEMNIZACIONES                         </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>425505          </Codigo>
+		<Nombre>POR SINIESTRO                           </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>4295            </Codigo>
+		<Nombre>INGRESOS NO OPERAC. DIVERSOS            </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>429505          </Codigo>
+		<Nombre>INGR. x APROVECHAMTOS                   </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>429511          </Codigo>
+		<Nombre>INGRESOS POR INVESTIGACION Y DESARROLLO </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>429549          </Codigo>
+		<Nombre>RECONOCIMIENTOS ISS                     </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>429551          </Codigo>
+		<Nombre>INGR. x EXCEDENTES                      </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>429553          </Codigo>
+		<Nombre>INGR. x SOBRANTES DE CAJA               </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>429581          </Codigo>
+		<Nombre>AJUSTE AL PESO                          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>47              </Codigo>
+		<Nombre>AJUSTES POR INFLACION                   </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>4705            </Codigo>
+		<Nombre>CORRECCION MONETARIA                    </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>470505          </Codigo>
+		<Nombre>C.M. INVERSIONES          (CR)          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>470510          </Codigo>
+		<Nombre>C.M. INVENTARIOS          (CR)          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>470515          </Codigo>
+		<Nombre>C.M. PROP. PLAN Y EQUIPO  (CR)          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>47051501        </Codigo>
+		<Nombre>C.M. COSTO EDIFICIOS      (CR)          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>47051502        </Codigo>
+		<Nombre>C.M. COSTO OFICINAS       (CR)          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>47051503        </Codigo>
+		<Nombre>C.M. COSTO TERRENOS       (CR)          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>47051504        </Codigo>
+		<Nombre>C.M. COSTO CONSTRUC CURSO (CR)          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>47051505        </Codigo>
+		<Nombre>C.M. COSTO MAQ.Y EQUIPO   (CR)          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>47051510        </Codigo>
+		<Nombre>C.M. COSTO MUE.Y ENSERES  (CR)          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>47051511        </Codigo>
+		<Nombre>C.M. COSTO EQUIP. OFICINA (CR)          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>47051515        </Codigo>
+		<Nombre>C.M. COSTO EQU.PROC.DATOS (CR)          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>47051517        </Codigo>
+		<Nombre>C.M. COSTO LINEAS TELEFON.(CR)          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>47051519        </Codigo>
+		<Nombre>C.M. COSTO EQ. DE LABORAT.(CR)          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>47051530        </Codigo>
+		<Nombre>C.M. COSTO AUTOS CAMPEROS (CR)          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>47051533        </Codigo>
+		<Nombre>C.M. COSTO MOTICICLETAS   (CR)          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>470520          </Codigo>
+		<Nombre>C.M. INTANGIBLES          (CR)          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>470525          </Codigo>
+		<Nombre>C,M, ACTIVOS DIFERIDOS (CR)             </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>470540          </Codigo>
+		<Nombre>C.M. PATRIMONIO                         </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>47054005        </Codigo>
+		<Nombre>C.M. CAPITAL SOCIAL       (DB)          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>47054010        </Codigo>
+		<Nombre>C.M. SUPER.DE CAPITAL     (DB)          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>47054015        </Codigo>
+		<Nombre>C.M. RESERVAS             (DB)          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>47054020        </Codigo>
+		<Nombre>C.M. RESULT.EJER ANTER.   (DB)          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>470550          </Codigo>
+		<Nombre>C.M. DEPRECIACION ACUMULADA             </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>47055001        </Codigo>
+		<Nombre>C.M. DEPREC. EDIFICIOS    (DB)          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>47055002        </Codigo>
+		<Nombre>C.M. DEPREC. OFICINAS     (DB)          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>47055005        </Codigo>
+		<Nombre>C.M. DEPREC. MAQ Y EQUIPO (DB)          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>47055010        </Codigo>
+		<Nombre>C.M. DEPREC. MUE Y ENS.   (DB)          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>47055011        </Codigo>
+		<Nombre>C.M. DEPREC. EQUI.DE OFIC (DB)          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>47055015        </Codigo>
+		<Nombre>C.M. DEPREC.EQ.PROC.DATOS (DB)          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>47055019        </Codigo>
+		<Nombre>C.M. DEP. EQ. DE LABORAT. (DB)          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>47055030        </Codigo>
+		<Nombre>C.M. DEPREC. AUTOS CAMP.  (DB)          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>47055033        </Codigo>
+		<Nombre>C.M. DEPREC. MOTOCICLETAS (DB)          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>470565          </Codigo>
+		<Nombre>C.M. INGRE. OPERACIONALES (DB)          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>470570          </Codigo>
+		<Nombre>C.M. INGRES NO OPERACION. (DB)          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>470575          </Codigo>
+		<Nombre>C.M. GASTOS OPERAC. ADMON (CR)          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>470580          </Codigo>
+		<Nombre>C.M. GASTOS OPERAC. VENTA (CR)          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>470585          </Codigo>
+		<Nombre>C.M. GASTOS NO OPERAC.    (CR)          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>470590          </Codigo>
+		<Nombre>C.M. COMPRAS              (CR)          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>470592          </Codigo>
+		<Nombre>C.M. COSTO DE VENTAS      (CR)          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>470594          </Codigo>
+		<Nombre>C.M. COSTO DE OPERACION   (DB)          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>5               </Codigo>
+		<Nombre>GASTOS                                  </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>51              </Codigo>
+		<Nombre>OPERACIONALES DE ADMINISTRACION         </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>5105            </Codigo>
+		<Nombre>GASTOS DEL PERSONAL                     </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>510506          </Codigo>
+		<Nombre>SUELDOS                                 </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>510515          </Codigo>
+		<Nombre>HORAS EXTRAS Y RECARGOS                 </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>510518          </Codigo>
+		<Nombre>COMISIONES                              </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>510521          </Codigo>
+		<Nombre>VIATICOS                                </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>510524          </Codigo>
+		<Nombre>INCAPACIDADES                           </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>510527          </Codigo>
+		<Nombre>AUXILIO DE TRANSPORTE                   </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>510530          </Codigo>
+		<Nombre>CESANTIAS                               </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>510533          </Codigo>
+		<Nombre>INTERESES SOBRE CESANTIAS               </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>510536          </Codigo>
+		<Nombre>PRIMA DE SERVICIOS                      </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>510539          </Codigo>
+		<Nombre>VACACIONES                              </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>510542          </Codigo>
+		<Nombre>PRIMAS EXTRALEGALES                     </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>510545          </Codigo>
+		<Nombre>AUXILIOS                                </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>510548          </Codigo>
+		<Nombre>BONIFICACIONES                          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>510551          </Codigo>
+		<Nombre>DOTACION Y SUMINISTRO A TRAB.           </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>510554          </Codigo>
+		<Nombre>SEGUROS                                 </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>510560          </Codigo>
+		<Nombre>INDEMNIZACIONES LABORALES               </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>510563          </Codigo>
+		<Nombre>CAPACITACION AL PERSONAL                </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>510566          </Codigo>
+		<Nombre>DEPORTIV. Y DE RECREACION          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>510568          </Codigo>
+		<Nombre>APORTE RIESGOS PROFES. ARP              </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>510569          </Codigo>
+		<Nombre>APORTES E,P,S,                          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>510570          </Codigo>
+		<Nombre>APORTES FONDOS PENSIONES                </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>510572          </Codigo>
+		<Nombre>APORTES CAJA DE COMPENSACION            </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>510575          </Codigo>
+		<Nombre>APORTES I.C.B.F.                        </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>510578          </Codigo>
+		<Nombre>SENA                                    </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>510584          </Codigo>
+		<Nombre>MEDICOS Y DROGAS                 </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>510595          </Codigo>
+		<Nombre>OTROS</Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>5110            </Codigo>
+		<Nombre>GASTOS POR HONORARIOS                   </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>511005          </Codigo>
+		<Nombre>HONOR. x JUNTA DIRECTIVA                </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>511010          </Codigo>
+		<Nombre>HONOR. x REV. FISCAL                    </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>511015</Codigo>
+		<Nombre>ASESORIA EXTERNA</Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>511025          </Codigo>
+		<Nombre>HONOR. x ASESOR. JURIDICA               </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>511030          </Codigo>
+		<Nombre>HONOR. x ASESOR. FINANCIER              </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>511035          </Codigo>
+		<Nombre>HONOR. x ASESOR. TECNICA                </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>511095          </Codigo>
+		<Nombre>OTROS HONORARIOS                        </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>5115            </Codigo>
+		<Nombre>GASTOS DE IMPUESTOS                     </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>511505          </Codigo>
+		<Nombre>INDUSTRIA Y COMERCIO                    </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>511510          </Codigo>
+		<Nombre>DE TIMBRE                               </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>511540          </Codigo>
+		<Nombre>IMPTO DE VEHICULOS                      </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>511570          </Codigo>
+		<Nombre>IVA DESCONTABLE                         </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>511595          </Codigo>
+		<Nombre>OTROS</Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>5120            </Codigo>
+		<Nombre>GASTOS DE ARRENDAMIENTOS</Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>512010          </Codigo>
+		<Nombre>ARRENDMTO CONSTRUC. Y EDIFIC.           </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>512015          </Codigo>
+		<Nombre>ARRENDMTO DE MAQ. Y EQUIPO              </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>512020          </Codigo>
+		<Nombre>ARRENDMTO DE EQU. DE OFICINA            </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>512040          </Codigo>
+		<Nombre>ARRENDMTO. DE FLOT. Y EQ. TRANS         </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>512095          </Codigo>
+		<Nombre>OTROS</Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>5125            </Codigo>
+		<Nombre>CONTRIBUCCIONES Y AFILIACIONES</Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>512505          </Codigo>
+		<Nombre>CONTRIBUCCIONES  </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>512510          </Codigo>
+		<Nombre>AFILIACION Y SOSTENIMIENTO</Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>5130            </Codigo>
+		<Nombre>GASTOS DE SEGURO</Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>513005          </Codigo>
+		<Nombre>SEGURO DE MANEJO                        </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>513010          </Codigo>
+		<Nombre>SEGURO DE CUMPLIMTO                     </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>513020          </Codigo>
+		<Nombre>SEGURO VIDA COLECTIVA                   </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>513025          </Codigo>
+		<Nombre>SEGURO INCENDIO                         </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>513030          </Codigo>
+		<Nombre>SEGURO TERREMOTO                        </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>513035          </Codigo>
+		<Nombre>SEGURO SUSTRACCION Y HURTO              </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>513040          </Codigo>
+		<Nombre>SEGURO DE ANTICIPO                      </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>513060          </Codigo>
+		<Nombre>SEGURO RESP.CIVIL/EXTRACONTRAC          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>513075          </Codigo>
+		<Nombre>OBLIG ACCIDENTE DE TRANSITO             </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>513095          </Codigo>
+		<Nombre>OTROS SEGUROS                           </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>5135            </Codigo>
+		<Nombre>GASTOS POR SERVICIOS                    </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>513505          </Codigo>
+		<Nombre>ASEO Y VIGILANCIA                       </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>513510          </Codigo>
+		<Nombre>SERVICIOS TEMPORALES                    </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>513515          </Codigo>
+		<Nombre>ASISTENCIA TECNICA                      </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>513520          </Codigo>
+		<Nombre>PROCESMTO ELECTR. DATOS                 </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>513525          </Codigo>
+		<Nombre>ACUEDUCTO Y ALCANTARILLADO              </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>513530          </Codigo>
+		<Nombre>ENERGIA ELECTRICA                       </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>513535          </Codigo>
+		<Nombre>TELEFONO                                </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>513540          </Codigo>
+		<Nombre>CORREO, PORTES Y TELEGRAMAS             </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>513545          </Codigo>
+		<Nombre>FAX E INTERNET                          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>513550          </Codigo>
+		<Nombre>TRANSP., FLETES Y ACARREOS              </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>513555          </Codigo>
+		<Nombre>SERVICIO DE GAS                         </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>513595          </Codigo>
+		<Nombre>OTROS GTOS x SERVICIOS                  </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>51359501</Codigo>
+		<Nombre>PROPAGANDA Y PUBLICIDAD                 </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>51359502</Codigo>
+		<Nombre>MENSAJERIA</Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>51359503</Codigo>
+		<Nombre>MERCADEO</Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>51359510</Codigo>
+		<Nombre>OTROS</Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>5140            </Codigo>
+		<Nombre>GASTOS LEGALES                          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>514005          </Codigo>
+		<Nombre>NOTARIALES                              </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>514010          </Codigo>
+		<Nombre>REGISTRO MERCANTIL                      </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>514015          </Codigo>
+		<Nombre>TRAMITES Y LICENCIAS                    </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>514020          </Codigo>
+		<Nombre>ADUANEROS</Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>514025          </Codigo>
+		<Nombre>CONSULARES</Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>514095          </Codigo>
+		<Nombre>OTROS</Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>5145            </Codigo>
+		<Nombre>GTOS MANTMTO Y REPARACIONES             </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>514510          </Codigo>
+		<Nombre>MANTMTO CONSTRUC. Y EDIFICAC.           </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>514515          </Codigo>
+		<Nombre>MANTMTO MAQUINARIA Y EQUIPO             </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>514520          </Codigo>
+		<Nombre>MANTMTO EQU. DE OFICINA                 </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>514525          </Codigo>
+		<Nombre>MANTMTO EQU. COMPUT. Y COMUNIC          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>514540          </Codigo>
+		<Nombre>MANTMTO FLOTA Y EQ. DE TRANSP.          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>514560          </Codigo>
+		<Nombre>MANTMTO ACUDTO PLANTAS Y REDES          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>5150            </Codigo>
+		<Nombre>GASTOS DE ADECUACION E INSTALA          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>515005          </Codigo>
+		<Nombre>INSTALACIONES ELECTRICAS                </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>515010          </Codigo>
+		<Nombre>ARREGLOS ORNAMENTALES                   </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>515015          </Codigo>
+		<Nombre>REPARACIONES LOCATIVAS                  </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>515095          </Codigo>
+		<Nombre>OTROS GTOS ADECUAC. E INSTAL.           </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>5155            </Codigo>
+		<Nombre>GASTOS DE VIAJE                         </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>515505          </Codigo>
+		<Nombre>ALOJAMIENTO Y MANUTENCION               </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>515515          </Codigo>
+		<Nombre>PASAJES AEREOS                          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>515520          </Codigo>
+		<Nombre>PASAJES TERRESTRES                      </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>515595          </Codigo>
+		<Nombre>OTROS</Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>5160            </Codigo>
+		<Nombre>GASTO DEPRECIACION                      </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>516005          </Codigo>
+		<Nombre>DEP.CONSTRUC Y EDIFIC.                  </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>516010          </Codigo>
+		<Nombre>DEP. MAQ. Y EQUIPO                      </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>516015          </Codigo>
+		<Nombre>DEP. EQU. DE OFICINA                    </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>516020          </Codigo>
+		<Nombre>DEP. EQU. DE COMPUT. COMUNIC.           </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>516025          </Codigo>
+		<Nombre>DEP. EQU. DE LABORATORIO                </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>516035          </Codigo>
+		<Nombre>DEP. FLOTA Y EQ. DE TRANSP.             </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>516055          </Codigo>
+		<Nombre>DEP. ACUEDUC. PLANTAS Y R.              </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>5165            </Codigo>
+		<Nombre>GASTOS DE AMORTIZACIONES                </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>516510          </Codigo>
+		<Nombre>AMORTIZ. DE INTANGIBLES                 </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>516515          </Codigo>
+		<Nombre>AMORTIZ. x CARGOS DIFERIDOS             </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>516595          </Codigo>
+		<Nombre>OTRAS AMORTIZACIONES                    </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>5195            </Codigo>
+		<Nombre>GASTOS DIVERSOS                         </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>519505          </Codigo>
+		<Nombre>CAPACITACION PERSONAL                   </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>519510          </Codigo>
+		<Nombre>LIBROS SUSCRIP PERIOD. REVISTA          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>519515          </Codigo>
+		<Nombre>MUSICA AMBIENTAL                        </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>519520          </Codigo>
+		<Nombre>REPRESTAC. Y RELAC. PUBLIC.             </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>519525          </Codigo>
+		<Nombre>ELEMENTOS DE ASEO Y CAFETERIA           </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>519530          </Codigo>
+		<Nombre>UTILES, PAPELERIA Y FOTOCOPIAS          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>519535          </Codigo>
+		<Nombre>COMBUSTIBLES Y LUBRICANTES              </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>519545          </Codigo>
+		<Nombre>TAXIS Y BUSES                           </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>519550          </Codigo>
+		<Nombre>ESTAMPILLAS                             </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>519560          </Codigo>
+		<Nombre>CASINOS Y RESTAURANTE                   </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>519565          </Codigo>
+		<Nombre>PARQUEADEROS                            </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>519595          </Codigo>
+		<Nombre>OTROS GTOS DIVERSOS                     </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>5199            </Codigo>
+		<Nombre>GASTOS POR PROVISIONES                  </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>519910          </Codigo>
+		<Nombre>GTO PROVIS. DEUDORES                    </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>52              </Codigo>
+		<Nombre>OPERACIONALES DE VENTA                  </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>5205            </Codigo>
+		<Nombre>GASTOS OPERAC. POR VENTAS               </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>520506          </Codigo>
+		<Nombre>SUELDOS DE VENTAS                       </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>520518          </Codigo>
+		<Nombre>COMISIONES POR VENTAS                   </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>520521          </Codigo>
+		<Nombre>VIATICOS                                </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>520563          </Codigo>
+		<Nombre>CAPACITACION AL PERSONAL                </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>521010          </Codigo>
+		<Nombre>REV. FISCAL                  </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>521030          </Codigo>
+		<Nombre>ASES. FINANC. CONTABLE           </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>521035          </Codigo>
+		<Nombre>ASESORIA TECNICA                 </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>521095          </Codigo>
+		<Nombre>OTROS</Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>5215            </Codigo>
+		<Nombre>IMPUESTOS                               </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>521595          </Codigo>
+		<Nombre>OTROS                                   </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>5225            </Codigo>
+		<Nombre>AFILIACIONES Y CONTRIBUCIONES           </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>522505          </Codigo>
+		<Nombre>CONTRIBUCIONES                          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>522510          </Codigo>
+		<Nombre>AFILIAC. Y SOSTENIMIENTO                </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>5230            </Codigo>
+		<Nombre>GTOS POR SEGUROS                        </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>523010          </Codigo>
+		<Nombre>POLIZAS DE CUMPLIMIENTO                 </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>523075          </Codigo>
+		<Nombre>OBLIGATORIO ACCIDENTE TRANSITO          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>5235            </Codigo>
+		<Nombre>SERVICIOS                               </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>523550          </Codigo>
+		<Nombre>TRANSPORTE, FLETES Y ACARREOS           </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>523560          </Codigo>
+		<Nombre>PROPAGANDA Y PUBLICIDAD                 </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>523595          </Codigo>
+		<Nombre>OTROS SERVICIOS                         </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>524510          </Codigo>
+		<Nombre>CONSTRUCCIONES Y EDIFICACIONES          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>524540          </Codigo>
+		<Nombre>FLOTA Y EQU. DE TRANSPORTE              </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>5255            </Codigo>
+		<Nombre>GASTOS DE VIAJE                         </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>525505          </Codigo>
+		<Nombre>ALOJAMIENTO Y MANUTENCION               </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>525515          </Codigo>
+		<Nombre>PASAJES AEREOS                          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>525520          </Codigo>
+		<Nombre>PASAJES TERRESTRES                      </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>525595          </Codigo>
+		<Nombre>OTROS - GASTOS DE VIAJE                 </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>5260            </Codigo>
+		<Nombre>DEPRECIACIONES                          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>526005          </Codigo>
+		<Nombre>DEPR.CONSTRUCCIONES Y EDIFICACIONES     </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>5295            </Codigo>
+		<Nombre>DIVERSOS</Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>529505          </Codigo>
+		<Nombre>COMISIONES                              </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>529520          </Codigo>
+		<Nombre>GASTOS DE REPRESENTACION                </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>529545          </Codigo>
+		<Nombre>TAXIS Y BUSES                           </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>529560          </Codigo>
+		<Nombre>CASINO Y RESTAURANTE                    </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>529565          </Codigo>
+		<Nombre>PARQUEADEROS                            </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>529595          </Codigo>
+		<Nombre>OTROS GTOS DIVERSO DE VTAS              </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>5299            </Codigo>
+		<Nombre>PROVISIONES                             </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>529910          </Codigo>
+		<Nombre>PROVISION DEUDORES                      </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>53              </Codigo>
+		<Nombre>GASTOS NO OPERACIONALES                 </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>5305            </Codigo>
+		<Nombre>GASTOS FINANCIEROS                      </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>530505          </Codigo>
+		<Nombre>GASTOS BANCARIOS                        </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>53050505        </Codigo>
+		<Nombre>GASTOS BANCARIOS                        </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>53050510        </Codigo>
+		<Nombre>CONT. EMERG. ECON.  3 x MIL             </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>530510          </Codigo>
+		<Nombre>REAJUSTE MONETARIO - UPAC               </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>530515          </Codigo>
+		<Nombre>COMISIONES                              </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>530520          </Codigo>
+		<Nombre>INTERESES                               </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>53052001</Codigo>
+		<Nombre>INTERESES X PRESTAMOS BANCARIOS</Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>53052002</Codigo>
+		<Nombre>INTERESES X SOBREGIRO BANCARIO</Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>53052003</Codigo>
+		<Nombre>INTERESES X MORA</Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>530525          </Codigo>
+		<Nombre>DIFERENCIA EN CAMBIO                    </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>530535          </Codigo>
+		<Nombre>DESCUENTOS CIALES CONDICIONADOS         </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>530595          </Codigo>
+		<Nombre>OTROS GASTOS FINANCIEROS (OTROS)        </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>5310            </Codigo>
+		<Nombre>PERDIDA EN VTA DE BIENES                </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>531015          </Codigo>
+		<Nombre>VTA  PROPIEDAD PLANTA Y EQ.             </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>531030          </Codigo>
+		<Nombre>RETIRO DE PROP. PLANTA Y EQ.            </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>5315            </Codigo>
+		<Nombre>GASTOS EXTRAORDINARIOS                  </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>531505          </Codigo>
+		<Nombre>COSTAS Y PROCESOS JUDICIALES            </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>531520          </Codigo>
+		<Nombre>IMPUESTOS ASUMIDOS </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>531595          </Codigo>
+		<Nombre>OTROS                                   </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>53159501</Codigo>
+		<Nombre>GASTOS EJERCICIO ANTERIOR</Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>53159502</Codigo>
+		<Nombre>GASTOS NO DEDUCIBLES</Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>5395            </Codigo>
+		<Nombre>GASTOS DIVERSOS                         </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>539520          </Codigo>
+		<Nombre>MULTAS, SANCIONES Y LITIGIOS            </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>539525          </Codigo>
+		<Nombre>DONACIONES</Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>539595          </Codigo>
+		<Nombre>OTROS GASTOS DIVERSOS                   </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>54              </Codigo>
+		<Nombre>IMPUESTO RENTA Y COMPLEMENT.            </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>5405            </Codigo>
+		<Nombre>IMPUESTO RENTA Y COMPLEMENT.            </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>540505          </Codigo>
+		<Nombre>IMPUESTO RENTA Y COMPLEMENT.            </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>59              </Codigo>
+		<Nombre>GANANCIAS O PERDIDAS                    </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>5905            </Codigo>
+		<Nombre>GANANCIAS O PERDIDAS                    </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>590505          </Codigo>
+		<Nombre>GANANCIAS O PERDIDAS                    </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>7               </Codigo>
+		<Nombre>COSTOS DE PRODUCC. O DE OPERAC          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>72              </Codigo>
+		<Nombre>MANO DE OBRA DIRECTA                    </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>7205            </Codigo>
+		<Nombre>MOD PRODUCCION                          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>720501          </Codigo>
+		<Nombre>DESARROLLO                              </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>720502          </Codigo>
+		<Nombre>DOCUMENTACION                           </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>720503          </Codigo>
+		<Nombre>PRUEBAS                                 </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>720504          </Codigo>
+		<Nombre>CALIDAD                                 </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>720505          </Codigo>
+		<Nombre>REUNIONES                               </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>720506          </Codigo>
+		<Nombre>TRANSPORTE                              </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>720507</Codigo>
+		<Nombre>Aportes Salud</Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>720508</Codigo>
+		<Nombre>Aportes Pensión</Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>720509          </Codigo>
+		<Nombre>INVESTIGACION                           </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>720510</Codigo>
+		<Nombre>BONIFICACIONES                          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>720511          </Codigo>
+		<Nombre>CONTACTOS                               </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>720512</Codigo>
+		<Nombre>CAJA DE COMPENSACION FAMILIAR</Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>720513</Codigo>
+		<Nombre>I.C.B.F.</Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>720514</Codigo>
+		<Nombre>SENA                                    </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>720515</Codigo>
+		<Nombre>A.R.L.</Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>720590          </Codigo>
+		<Nombre>INSUMOS                                 </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>720599          </Codigo>
+		<Nombre>OTROS                                   </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>73              </Codigo>
+		<Nombre>COSTOS INDIRECTOS                       </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>8               </Codigo>
+		<Nombre>CUENTAS DE ORDEN DEUDORAS               </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>800042928       </Codigo>
+		<Nombre>PROASISTEMAS LTDA                       </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>82              </Codigo>
+		<Nombre>DEUDORAS FISCALES                       </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>8201            </Codigo>
+		<Nombre>DEUDORAS FISCALES                       </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>820101          </Codigo>
+		<Nombre>COMPRA DE ACTIVOS FIJOS                 </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>83              </Codigo>
+		<Nombre>DEUDORAS DE CONTROL                     </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>8395            </Codigo>
+		<Nombre>OTRAS CUENTAS DEUDORAS DE CONTROL       </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>839505          </Codigo>
+		<Nombre>CHEQUES POSFECHADOS                     </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>85              </Codigo>
+		<Nombre>DEUDORAS FISCALES POR CONTRA            </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>8501            </Codigo>
+		<Nombre>DEUDORAS FISCALES POR CONTRA            </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>850101          </Codigo>
+		<Nombre>COMPRA DE ACTIVOS FIJOS                 </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>86              </Codigo>
+		<Nombre>DEUDORAS DE CONTROL x CONTRA            </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>8605            </Codigo>
+		<Nombre>DEUDORAS DE CONTROL x CONTRA            </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>860505          </Codigo>
+		<Nombre>CONTRATOS PENDTE X FACT                 </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>9               </Codigo>
+		<Nombre>CUENTAS DE ORDEN ACREEDORAS             </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>94              </Codigo>
+		<Nombre>RESPONSABILIDADES CONTINGENTES POR CONTR</Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>940105          </Codigo>
+		<Nombre>RESPONSABILIDADES CONTING/ POR CONTRA   </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>96              </Codigo>
+		<Nombre>ACREEDORAS DE CONTROL x CONTRA          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>9605            </Codigo>
+		<Nombre>ACREEDORAS DE CONTROL x CONTRA          </Nombre>
+	</Cuenta>
+	<Cuenta>
+		<Codigo>960505          </Codigo>
+		<Nombre>CONTRATOS PDTES X FACT                  </Nombre>
+	</Cuenta>
+</ns1:Catalogo>
