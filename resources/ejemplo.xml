@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns1:Comprobante xmlns:ns1="http://creativosdigitales.co/schema/docusfera.xsd">
+	<Tipo>Egresos</Tipo>
+	<Numero>00015</Numero>
+	<Fecha>2015-09-11</Fecha>
+	<Nota>Pago Servicios Publicos</Nota>
+	<Empresa>
+		<Codigo>90809809</Codigo>
+		<DV>2</DV>
+		<Nombre>Creativos Digitales S.A.S.</Nombre>
+	</Empresa>
+	<Tercero>
+		<Codigo>89276987</Codigo>
+		<Nombre>Empresas Publicas de Medellin</Nombre>
+	</Tercero>
+	<Totales>
+		<Valor>440000</Valor>
+	</Totales>
+	<Contabilizacion>
+		<ns1:Asiento>
+			<Libro>COMUN</Libro>
+			<Cuenta>
+				<Codigo>514055</Codigo>
+				<Nombre>Servicios Publicos</Nombre>
+			</Cuenta>
+			<Tercero>
+				<Codigo>89276987</Codigo>
+				<Nombre>Empresas Publicas de Medellin</Nombre>
+			</Tercero>
+			<Debitos>440000</Debitos>
+			<Creditos/>
+		</ns1:Asiento>
+		<ns1:Asiento>
+			<Libro>COMUN</Libro>
+			<Cuenta>
+				<Codigo>11200505</Codigo>
+				<Nombre>Cuenta Ahorros Bancolombia 33-85</Nombre>
+			</Cuenta>
+			<Tercero>
+				<Codigo>89276987</Codigo>
+				<Nombre>Empresas Publicas de Medellin</Nombre>
+			</Tercero>
+			<Debitos/>
+			<Creditos>440000</Creditos>
+		</ns1:Asiento>
+	</Contabilizacion>
+</ns1:Comprobante>
