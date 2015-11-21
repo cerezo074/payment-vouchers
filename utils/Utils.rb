@@ -3,6 +3,10 @@ require 'nokogiri'
 
 class Utils
 
+  @@random = Random.new()
+
+  attr_reader :random
+
   ACCOUNT_XML_FILE_PATH = './resources/cuentas.xml'
   PARTIES_XML_FILE_PATH = './resources/parties.xml'
 
@@ -18,5 +22,22 @@ class Utils
 
   end
 
+  def Utils.getRandomNumberFromRange(range)
+
+    if(range.kind_of? Range)
+
+      return Utils::random.rand(range)
+
+    end
+
+    return nil
+
+  end
+
+  def Utils.random
+
+    return @@random
+
+  end
 
 end
