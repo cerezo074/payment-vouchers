@@ -1,5 +1,6 @@
 
 require 'nokogiri'
+require_relative '../utils/Utils'
 
 class Vaucher
 
@@ -19,6 +20,9 @@ class Vaucher
   def start()
 
     #APPLY CONDITIONS!!!
+
+    #APPLY CONDITIONS!!!
+
 
     self.callManager()
 

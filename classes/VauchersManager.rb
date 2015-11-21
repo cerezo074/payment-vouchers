@@ -32,37 +32,34 @@ class VauchersManager
   def start_manager()
 
     self.start_date = Time.now
+
+    puts("\nManager has started in: #{self.start_date}\n\n")
+
     self.amount_vauchers = (self.amount_vauchers > 0) ? self.amount_vauchers : 1
     range = Range.new(1,self.amount_vauchers,false)
+    threads_array = []
 
-    range.each do |voucher_id|
+    range.each do |vaucher_id|
 
       #CONCURRENCY!!!
 
-      puts "Creating the voucher: #{voucher_id}"
-      vaucher = Vaucher.new(voucher_id, self)
-      self.vauchers_array.push(vaucher)
-      vaucher.start()
+      thread = Thread.new{
+
+        Thread.current[:thread_id] = vaucher_id
+        vaucher = Vaucher.new(vaucher_id, self)
+        self.vauchers_array.push(vaucher)
+        vaucher.start()
+
+      }
+
+      threads_array.push(thread)
 
       #CONCURRENCY
 
     end
 
-    end_manager()
-
-  end
-
-  def vaucherWasCreated()
-
-    if self.vaucher_created != self.amount_vauchers
-
-      self.vaucher_created += 1
-
-    else
-
-      self.end_manager()
-
-    end
+    puts("Manager waiting for all vauchers are created")
+    threads_array.each{| thread | thread.join}
 
   end
 
@@ -80,7 +77,7 @@ class VauchersManager
 
       xml_vaucher = vaucher.xmlState()
       File.write(VAUCHERS_PATH_DIR+"/#{vaucher.vaucher_id}.xml", xml_vaucher)
-      puts "Vaucher #{vaucher.vaucher_id} saved"
+      #puts "Vaucher #{vaucher.vaucher_id} saved"
 
     end
 
@@ -89,9 +86,24 @@ class VauchersManager
   def end_manager()
 
     self.saveVauchers()
-
     self.end_date = Time.now
-    puts TimeDifference.between(self.start_date, self.end_date).in_each_component
+    puts("\n\nManager has finished in: #{self.end_date}\nTime elapsed: #{TimeDifference.between(self.start_date, self.end_date).in_each_component}")
+
+  end
+
+  include MonitorMixin
+
+  def vaucherWasCreated()
+
+    self.vaucher_created += 1
+    #puts("vachers created: #{self.vaucher_created}")
+
+    if self.vaucher_created == self.amount_vauchers
+
+      #puts("Thread calling saved:  #{Thread.current[:thread_id]}")
+      self.end_manager()
+
+    end
 
   end
 
