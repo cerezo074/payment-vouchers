@@ -12,18 +12,22 @@ class VauchersManager
   @amount_vauchers
   @vauchers_array
   @vaucher_created
+  @max_amount_register
 
   attr_accessor :start_date
   attr_accessor :end_date
   attr_accessor :amount_vauchers
   attr_accessor :vauchers_array
   attr_accessor :vaucher_created
+  attr_accessor :max_amount_register
 
-  def initialize(amount_vauchers)
+  def initialize(amount_vauchers, max_amount_register)
 
     $accountsXMLFile = Utils::loadXMLFile(Utils::ACCOUNT_XML_FILE_PATH)
     $partiesXMLFile = Utils::loadXMLFile(Utils::ACCOUNT_XML_FILE_PATH)
+
     self.amount_vauchers = amount_vauchers
+    self.max_amount_register = max_amount_register
     self.vauchers_array = Array.new()
     self.vaucher_created = 0
 

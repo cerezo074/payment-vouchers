@@ -5,14 +5,17 @@ class Vaucher
 
   @vaucher_manager
   @vaucher_id
+  @max_amount_register
 
   attr_accessor :vaucher_manager
   attr_accessor :vaucher_id
+  attr_accessor :max_amount_register
 
-  def initialize (vaucher_id,vaucher_manager)
+  def initialize (vaucher_id,vaucher_manager, max_amount_register)
 
     self.vaucher_manager = vaucher_manager
     self.vaucher_id = vaucher_id
+    self.max_amount_register = max_amount_register
 
   end
 
