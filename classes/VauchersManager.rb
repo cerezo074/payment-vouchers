@@ -97,7 +97,7 @@ class VauchersManager
 
       xml_vaucher = vaucher.xmlState()
       File.write(VAUCHERS_PATH_DIR+"/#{vaucher.vaucher_id}.xml", xml_vaucher)
-      puts "Vaucher #{vaucher.vaucher_id} saved"
+      #puts "Vaucher #{vaucher.vaucher_id} saved"
 
     end
 
