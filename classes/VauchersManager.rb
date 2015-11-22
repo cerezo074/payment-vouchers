@@ -25,7 +25,7 @@ class VauchersManager
 
     $accounts_XML_doc = Utils::loadXMLFile(Utils::ACCOUNT_XML_FILE_PATH)
     $debit_accounts_xml_node_set = $accounts_XML_doc.xpath("//Cuenta[ starts-with(Codigo,'1') or starts-with(Codigo,'3') or starts-with(Codigo,'4') ]")
-    $credit_accounts_xml_node_set = $accounts_XML_doc.xpath("//Cuenta[ not(starts-with(Codigo,'1')) or not(starts-with(Codigo,'3')) or not(starts-with(Codigo,'4')) ]")
+    $credit_accounts_xml_node_set = $accounts_XML_doc.xpath("//Cuenta[ not(starts-with(Codigo,'1')) and not(starts-with(Codigo,'3')) and not(starts-with(Codigo,'4')) ]")
     $parties_XML_doc = Utils::loadXMLFile(Utils::PARTIES_XML_FILE_PATH)
     $companies_XML_node_list = $parties_XML_doc.xpath("//Tercero[Codigo >= '80000000']")
     $third_persons_name_XML_node_list = $parties_XML_doc.xpath("//Tercero[Codigo < '80000000']")
@@ -107,7 +107,7 @@ class VauchersManager
 
     self.saveVauchers()
     self.end_date = Time.now
-    puts("\n\nManager has finished in: #{self.end_date}\nTime elapsed: #{TimeDifference.between(self.start_date, self.end_date).in_each_component}")
+    puts("\nManager has finished in: #{self.end_date}\nTime elapsed: #{TimeDifference.between(self.start_date, self.end_date).in_each_component}")
 
   end
 
