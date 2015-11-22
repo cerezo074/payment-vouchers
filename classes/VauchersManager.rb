@@ -1,5 +1,5 @@
 
-require_relative '../utils/Utils'
+require_relative 'utils/Utils'
 require_relative 'Vaucher'
 require 'time_difference'
 
@@ -23,8 +23,10 @@ class VauchersManager
 
   def initialize(amount_vauchers, max_amount_register)
 
-    $accountsXMLFile = Utils::loadXMLFile(Utils::ACCOUNT_XML_FILE_PATH)
-    $partiesXMLFile = Utils::loadXMLFile(Utils::ACCOUNT_XML_FILE_PATH)
+    $accounts_XML_doc = Utils::loadXMLFile(Utils::ACCOUNT_XML_FILE_PATH)
+    $parties_XML_doc = Utils::loadXMLFile(Utils::PARTIES_XML_FILE_PATH)
+    $companies_XML_node_list = $parties_XML_doc.xpath("//Tercero[Codigo >= '80000000']")
+    $third_persons_name_XML_node_list = $parties_XML_doc.xpath("//Tercero[Codigo < '80000000']")
 
     self.amount_vauchers = amount_vauchers
     self.max_amount_register = max_amount_register
@@ -40,17 +42,22 @@ class VauchersManager
     puts("\nManager has started in: #{self.start_date}\n\n")
 
     self.amount_vauchers = (self.amount_vauchers > 0) ? self.amount_vauchers : 1
-    range = Range.new(1,self.amount_vauchers,false)
+    iteration_range = Range.new(1,self.amount_vauchers,false)
+    vauchers_ids_array = (Range.new(1,(self.amount_vauchers * self.amount_vauchers),false)).to_a
     threads_array = []
 
-    range.each do |vaucher_id|
+    iteration_range.each do |index|
+
+      index = Utils::getRandomNumberToMaxInclusive(vauchers_ids_array.count - 1)
+      vaucher_id = vauchers_ids_array[index]
+      vauchers_ids_array.delete_at(index)
 
       #CONCURRENCY!!!
 
       thread = Thread.new{
 
         Thread.current[:thread_id] = vaucher_id
-        vaucher = Vaucher.new(vaucher_id, self)
+        vaucher = Vaucher.new(vaucher_id, self, self.max_amount_register)
         self.vauchers_array.push(vaucher)
         vaucher.start()
 
@@ -58,7 +65,7 @@ class VauchersManager
 
       threads_array.push(thread)
 
-      #CONCURRENCY
+      #CONCURRENCY!!!
 
     end
 
@@ -81,7 +88,7 @@ class VauchersManager
 
       xml_vaucher = vaucher.xmlState()
       File.write(VAUCHERS_PATH_DIR+"/#{vaucher.vaucher_id}.xml", xml_vaucher)
-      #puts "Vaucher #{vaucher.vaucher_id} saved"
+      puts "Vaucher #{vaucher.vaucher_id} saved"
 
     end
 

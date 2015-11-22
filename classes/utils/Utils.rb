@@ -1,5 +1,6 @@
 
 require 'nokogiri'
+require 'nokogiri-pretty'
 
 class Utils
 
@@ -22,6 +23,12 @@ class Utils
 
   end
 
+  def Utils.getRandomNumberToMaxInclusive(max_number)
+
+    return Utils::random.rand(max_number+1)
+
+  end
+
   def Utils.getRandomNumberFromRange(range)
 
     if(range.kind_of? Range)
@@ -31,6 +38,24 @@ class Utils
     end
 
     return nil
+
+  end
+
+  def Utils.getRandomBoolean()
+
+    return (Utils::random(0..1) == 1)
+
+  end
+
+  def Utils.getRandomDate (from = Time.at(0), to = Time.now)
+
+    return Time.at(from.to_i + rand * ((to.to_i - from.to_i) + 1))
+
+  end
+
+  def Utils.getRandomDateFormated(format = "%Y-%m-%d")
+
+    return Utils::getRandomDate().strftime(format)
 
   end
 
