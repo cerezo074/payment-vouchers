@@ -44,8 +44,8 @@ class Vaucher
     self.date = Utils::getRandomDateFormated()
     self.note = notes_array[Utils::getRandomNumberToMaxInclusive(notes_array.count - 1)]
     self.total_value = Utils.getRandomNumberFromRange(Utils::total)
-    self.company_index = Utils::getRandomNumberToMaxInclusive($companies_XML_node_list.length)
-    self.third_party_index = Utils::getRandomNumberToMaxInclusive($third_persons_name_XML_node_list.length)
+    self.company_index = Utils::getRandomNumberToMaxInclusive($companies_XML_node_list.length - 1)
+    self.third_party_index = Utils::getRandomNumberToMaxInclusive($third_persons_name_XML_node_list.length - 1)
 
     if (third_party_index == company_index)
 
@@ -76,7 +76,7 @@ class Vaucher
       vaucher(){
 
         Tipo self.type
-        Numero self.vaucher_id
+        Numero String(self.vaucher_id).rjust(10,"0")
         Fecha self.date
         Nota self.note
         Empresa{

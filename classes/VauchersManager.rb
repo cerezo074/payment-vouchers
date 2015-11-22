@@ -43,14 +43,21 @@ class VauchersManager
 
     self.amount_vauchers = (self.amount_vauchers > 0) ? self.amount_vauchers : 1
     iteration_range = Range.new(1,self.amount_vauchers,false)
-    vauchers_ids_array = (Range.new(1,(self.amount_vauchers * self.amount_vauchers),false)).to_a
+    vauchers_ids_array = []
     threads_array = []
 
     iteration_range.each do |index|
 
-      index = Utils::getRandomNumberToMaxInclusive(vauchers_ids_array.count - 1)
-      vaucher_id = vauchers_ids_array[index]
-      vauchers_ids_array.delete_at(index)
+      vaucher_id = 0
+
+      loop do
+
+        vaucher_id = 1 + Utils::getRandomNumberToMaxInclusive(9999999999)
+        break !(vauchers_ids_array.include?(vaucher_id))
+
+      end
+
+      vauchers_ids_array.push(vaucher_id)
 
       #CONCURRENCY!!!
 
