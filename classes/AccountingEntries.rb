@@ -49,7 +49,7 @@ class AccountingEntries
 
     else
 
-      amount_registers = Utils::getRandomNumberFromRange(2..self.max_entries)
+      amount_registers = 10#Utils::getRandomNumberFromRange(2..self.max_entries)
       max_top_debits = Utils::getRandomNumberFromRange(Range.new(1,amount_registers,true))
       max_top_credits = amount_registers - max_top_debits
       total_divided = (Float(self.total/2))

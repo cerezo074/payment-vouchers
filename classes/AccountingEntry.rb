@@ -27,10 +27,18 @@ class AccountingEntry
     self.account_type = type
 
     childs_nodes_set = xml_account_node.element_children()
+
     code_node = childs_nodes_set[0]
-    self.code = code_node.content.gsub(/\s{2,}/,"")
+
+    if(code_node != nil)
+      self.code = code_node.content.gsub(/\s{2,}/,"")
+    end
+
     name_node = childs_nodes_set[1]
-    self.name = name_node.content.gsub(/\s{2,}/,"")
+
+    if(name_node != nil)
+      self.name = name_node.content.gsub(/\s{2,}/,"")
+    end
 
   end
 
