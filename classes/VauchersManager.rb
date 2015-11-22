@@ -24,6 +24,8 @@ class VauchersManager
   def initialize(amount_vauchers, max_amount_register)
 
     $accounts_XML_doc = Utils::loadXMLFile(Utils::ACCOUNT_XML_FILE_PATH)
+    $debit_accounts_xml_node_set = $accounts_XML_doc.xpath("//Cuenta[ starts-with(Codigo,'1') or starts-with(Codigo,'3') or starts-with(Codigo,'4') ]")
+    $credit_accounts_xml_node_set = $accounts_XML_doc.xpath("//Cuenta[ not(starts-with(Codigo,'1')) or not(starts-with(Codigo,'3')) or not(starts-with(Codigo,'4')) ]")
     $parties_XML_doc = Utils::loadXMLFile(Utils::PARTIES_XML_FILE_PATH)
     $companies_XML_node_list = $parties_XML_doc.xpath("//Tercero[Codigo >= '80000000']")
     $third_persons_name_XML_node_list = $parties_XML_doc.xpath("//Tercero[Codigo < '80000000']")
