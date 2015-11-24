@@ -43,18 +43,16 @@ class AccountingEntries
       amount_registers = self.max_entries
       max_top_debits = 1
       max_top_credits = 1
-      unit_total = Float(self.total/2)
-      self.debit_total = unit_total
-      self.credit_total = unit_total
+      self.debit_total = self.tota
+      self.credit_total = self.tota
 
     else
 
-      amount_registers = Utils::getRandomNumberFromRange(2..self.max_entries)
-      max_top_debits = Utils::getRandomNumberFromRange(Range.new(1,amount_registers,true))
-      max_top_credits = amount_registers - max_top_debits
-      total_divided = (Float(self.total/2))
-      self.debit_total = total_divided/max_top_debits
-      self.credit_total = total_divided/max_top_credits
+      amount_registers = 9#Utils::getRandomNumberFromRange(2..self.max_entries)
+      max_top_debits = Float(Utils::getRandomNumberFromRange(Range.new(1,amount_registers,true)))
+      max_top_credits = Float(amount_registers - max_top_debits)
+      self.debit_total = self.total/max_top_debits
+      self.credit_total = self.total/max_top_credits
 
     end
 

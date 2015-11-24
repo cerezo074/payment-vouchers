@@ -77,7 +77,7 @@ class Vaucher
 
     builder = Nokogiri::XML::Builder.new do
 
-      vaucher(){
+      Comprobante(){
 
         Tipo self.type
         Numero String(self.vaucher_id).rjust(10,"0")
@@ -97,7 +97,7 @@ class Vaucher
         }
         Contabilizacion{
 
-          Debitos{
+          #Debitos{
 
             self.acounting_entries.debit_entries_array.each do |debit_entry|
 
@@ -119,9 +119,9 @@ class Vaucher
 
             end
 
-          }
+          #}
 
-          Creditos{
+          #Creditos{
 
             self.acounting_entries.credit_entries_array.each do |credit_entry|
 
@@ -143,7 +143,7 @@ class Vaucher
 
             end
 
-          }
+          #}
 
         }
 
